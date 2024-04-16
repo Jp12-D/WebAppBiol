@@ -3,7 +3,7 @@ const search = document.querySelector('.input-group input'),
 
 search.addEventListener('input', searchTable);
 function searchTable() {
-    const searchValue = search.value.toLowerCase(); // Convertir el texto de búsqueda a minúsculas para una comparación insensible a mayúsculas y minúsculas
+    const searchValue = search.value.toLowerCase(); // Convertir el texto de búsqueda a minúsculas para una comparación insensible a mayúsculas y minúsculas.
     
     table_rows.forEach((row) => {
         let rowVisible = false; // Variable para rastrear si la fila debe mostrarse
